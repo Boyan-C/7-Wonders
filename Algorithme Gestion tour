@@ -8,4 +8,11 @@ Import numpy as np
 ''Le joueur humain commence''
 #Else
 ''Le joueur machine commence''
-#While [Cartes restantes] =! 0
+
+#While [Cartes restantes] =! 0 :
+    Input 'Choix Carte ?'
+    ''Incorporer fonction zoom''
+    #'Choix Carte ?' à associer avec liste cartes sur le plateau
+    If Carte[1][2,3,4,5,6,7,8,9]== Ressources_joueur1[1,2,3,4,5,6,7,8]:
+       Score += Carte[2][1,2,3]
+    Else print('Choix Carte impossible')
