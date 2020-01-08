@@ -1,0 +1,11 @@
+#On suppose que les ressources et l'argent sont assignées, que les cartes sont tirées et que le jeu est prêt à démarrer
+
+Import random as es
+Import numpy as np
+
+#premier_joueur = rd.generate(0,1)
+#If premier_joueur == 1
+''Le joueur humain commence''
+#Else
+''Le joueur machine commence''
+#While [Cartes restantes] =! 0
